@@ -1,0 +1,1 @@
+Uses langchain and open ai, putting facts in sqlit and querying on it.

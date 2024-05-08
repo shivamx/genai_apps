@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# ANY FILE ending with .bin
+*.bin
+
+#ANY FOLDER with name of emb
+
+
 # C extensions
 *.so
 
