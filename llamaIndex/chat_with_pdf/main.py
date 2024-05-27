@@ -1,6 +1,7 @@
 from llama_index.llms.ollama import Ollama
-from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
+from llama_index.core import SimpleDirectoryReader, VectorStoreIndex, Settings
 from llama_index.embeddings.ollama import OllamaEmbedding
+
 
 
 documents = SimpleDirectoryReader("data").load_data()
@@ -20,3 +21,4 @@ query_engine = index.as_query_engine()
 while(query := input("Enter a query (q to quit): ")) != "q":
     response = query_engine.query(query)
     print(response)
+    

@@ -1,0 +1,1 @@
+#https://github.com/google-gemini/cookbook/blob/main/examples/Anomaly_detection_with_embeddings.ipynb
